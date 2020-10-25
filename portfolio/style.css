@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Commissioner:wght@300;700&family=M+PLUS+Rounded+1c:wght@400&display=swap');
-
+html{
+    scroll-behavior: smooth;
+}
 header{
     position: relative;
     max-width: 960px;
@@ -58,6 +60,10 @@ ul.nav li {
 #motto {
     text-align: center;
     margin-bottom: 100px;
+}
+#motto p{
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-weight: 400;
 }
 #about{
     text-align: center;
