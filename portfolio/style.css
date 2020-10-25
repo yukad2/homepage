@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Commissioner:wght@300&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Commissioner:wght@300;700&family=M+PLUS+Rounded+1c:wght@400&display=swap');
 
 header{
     position: relative;
@@ -23,6 +22,7 @@ nav {
 }
 ul.nav{
     font-family: 'Commissioner', sans-serif;
+    font-weight: 300;
     display: block;
     list-style-type: disc;
     margin-block-start: 1em;
@@ -48,6 +48,47 @@ ul.nav li {
     max-width: 960px;
     object-fit: none;
 }
+#motto h1{
+    font-family: 'Commissioner', sans-serif;
+    font-weight: 300;
+    text-align: center;
+    font-size: 1.5em;
+    margin-bottom: 2em;
+}
+#motto {
+    text-align: center;
+    margin-bottom: 100px;
+}
 #about{
     text-align: center;
+}
+.fcontainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.fbox{
+    margin: 20px;
+    text-align: center;
+}
+#works{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 960px;
+}
+#works h1{
+    font-family: 'Commissioner', sans-serif;
+    font-weight: 300;
+    text-align: center;
+    font-size: 1.5em;
+    margin-bottom: 2em;
+}
+
+.worksimg img{
+    height: 280px;
+    width: 280px;
+}
+.fbox p{
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-weight: 400;
 }
