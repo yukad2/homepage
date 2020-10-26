@@ -1,0 +1,37 @@
+#main {
+    max-width: 960px;
+    margin: auto;
+}
+#main h1{
+    font-family: 'Commissioner', sans-serif;
+    font-size: 1.5em;
+    font-weight: 300;
+}
+#main h2{
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-size: 1.5em;
+    font-weight: 400;
+    margin: 1em;
+}
+#main hr{
+    margin: 2em;
+}
+.fcontainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.fbox{
+    margin: 0 auto;
+    max-width: 440px;
+}
+.mainImg{
+    max-width: 920px;
+    height: auto;
+    margin: 20px;
+}
+.fbox img{
+    height: 400px;
+    width: auto;
+    margin: 0;
+}

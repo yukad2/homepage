@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <title>About | Ayu Streamer</title>
+    <meta name="description" content="Hiromu Murata's Portfolio." >
+    <meta name="author" content="yukad2">
+    <!-- ファビコン -->
+    <link rel="icon" href="/portfolio/imgs/16.ico">
+    <!-- スマホ用アイコン -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/portfolio/imgs/16.ico">
+    <link rel="stylesheet" type="text/css" href="/portfolio/reset.css">
+    <link rel="stylesheet" type="text/css" href="/portfolio/style.css">
+    <link rel="stylesheet" type="text/css" href="/portfolio/works/works.css">
+</head>
+<body>
+    <header>
+        <h1 id="logo">
+            <a href="https://ayukawa.dev/portfolio">
+                <img src="/portfolio/imgs/logo.png" alt="Ayu Streamer Logo">
+            </a>
+        </h1>
+
+        <nav>
+            <ul class="nav">
+                <li><a href="/portfolio/index.html#motto">MOTTO</a></li>
+                <li><a href="/portfolio/index.html#works">WORKS</a></li>
+                <li><a href="/portfolio/about.html">ABOUT</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div id="main">
+        <h1>WORKS</h1>
+        <h2>顔向きと感情の検知ソフト</h2>
+        <hr>
+        <div class="fcontainer">
+            <div class="fbox">
+                <img src="./image.png" alt="顔向きと感情の検知ソフト">
+            </div>
+            <div class="fbox">
+                <p>
+                    顔向きと感情の検知を行うプログラムを書きました。
+                </p>
+                <p>
+                    ローカル環境のOpenCVで顔の検知を行い、認識できたデータをAzureに送信し、返ってきた情報を描画します。
+                </p>
+                <h3>Skill</h3>
+                <ul>
+                    <li>Python</li>
+                        <p>実装</p>
+                    <li>Numpy, Scipy</li>
+                        <p>回転行列による顔向きデータの加工</p>
+                    <li>Microsoft Azure API</li>
+                        <p>顔データの処理</p>                    
+                    <li>OpenCV</li>
+                        <p>顔の検知、画像データの加工、出力</p>
+                </ul>
+            </div>
+        </div>
+        <img class="mainImg" src="./angle.jpg" alt="様々な角度の場合"><br>
+        <img class="mainImg" src="./smile.jpg" alt="笑顔の場合">
+    </div>
+    <footer>
+        <p>© 2020 yukad2</p>
+    </footer>
+</body>
