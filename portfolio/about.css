@@ -1,0 +1,38 @@
+#main{
+    max-width: 960px;
+    margin-left : auto ;
+    margin-right : auto ;
+}
+#main h1{
+    font-family: 'Commissioner', sans-serif;
+    font-size: 2em;
+    font-weight: 700;
+}
+#main h2{
+    font-family: 'Commissioner', sans-serif;
+    font-size: 1.5em;
+    font-weight: 300;
+    margin: 1em;
+}
+#main p{
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-weight: 400;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+#main h3{
+    font-family: 'Commissioner', sans-serif;
+    font-size: 1em;
+    font-weight: 700;
+    margin: 0.5em;
+}
+
+#main ul{
+    margin-left: 50px;
+}
+#main ul p{
+    margin-left: 0px;
+    margin-right: 0px;
+}

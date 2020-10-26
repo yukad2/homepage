@@ -2,6 +2,9 @@
 html{
     scroll-behavior: smooth;
 }
+body{
+    background-color: #F4F4EF;
+}
 header{
     position: relative;
     max-width: 960px;
@@ -40,61 +43,15 @@ ul.nav li {
     border-bottom: none;
     text-align: right;
   }
-#mainImg{
-    text-align: center;
-    margin-bottom: 75px;
-}
-#mainImg img{
-    height: 300px;
-    width: 100%;
-    max-width: 960px;
-    object-fit: none;
-}
-#motto h1{
-    font-family: 'Commissioner', sans-serif;
-    font-weight: 300;
-    text-align: center;
-    font-size: 1.5em;
-    margin-bottom: 2em;
-}
-#motto {
-    text-align: center;
-    margin-bottom: 100px;
-}
-#motto p{
-    font-family: 'M PLUS Rounded 1c', sans-serif;
-    font-weight: 400;
-}
-#about{
-    text-align: center;
-}
-.fcontainer{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-}
-.fbox{
-    margin: 20px;
-    text-align: center;
-}
-#works{
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 960px;
-}
-#works h1{
-    font-family: 'Commissioner', sans-serif;
-    font-weight: 300;
-    text-align: center;
-    font-size: 1.5em;
-    margin-bottom: 2em;
-}
 
-.worksimg img{
-    height: 280px;
-    width: 280px;
+footer{
+    height: 100px;
+    text-align: center;
+    display: table;
+    width: 100%;
 }
-.fbox p{
-    font-family: 'M PLUS Rounded 1c', sans-serif;
-    font-weight: 400;
+footer p{
+    display: table-cell;
+    vertical-align: middle;
+    margin: auto;
 }
