@@ -20,10 +20,12 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    align-items: center;
 }
 .fbox{
     margin: 0 auto;
     max-width: 440px;
+    font-family: 'M PLUS Rounded 1c', sans-serif; 
 }
 .mainImg{
     max-width: 920px;
@@ -34,4 +36,25 @@
     height: 400px;
     width: auto;
     margin: 0;
+}
+
+.fbox-about {
+    margin-top: 1em;
+    margin-bottom: 2em;
+    
+}
+
+.fbox-about p{
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    line-height: 1.5em;
+}
+#main h3{
+    font-family: 'M PLUS Rounded 1c', sans-serif; 
+}
+#main p{
+    font-family: 'M PLUS Rounded 1c', sans-serif; 
+}
+#main li{
+    font-family: 'M PLUS Rounded 1c', sans-serif; 
 }
